@@ -2,11 +2,11 @@
 <p>
   <img src="Score_Push_swap.png" alt="Score Push_swap 86/100" align="left">
 
+ <br><br>
 This project asks you to sort data on a stack,
 with a limited instruction set, in as few moves as possible.
 To succeed, you will have to manipulate different sorting algorithms
 To succeed, you will have to manipulate different sorting algorithms and choose the most appropriate solution(s) for an optimised sorting of the data.
-<br><br>
 <br><br>
 <br><br>
 </p>
