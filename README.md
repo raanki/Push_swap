@@ -19,10 +19,7 @@ manipulate the stacks.
 
 Your goal? Write two programs in C:
 
-- One called checker which takes integers as parameters and reads
-instructions on the standard input. Once these instructions are read, checker executes them
-then displays OK if the integers are sorted, or KO otherwise.
-- A second one called push_swap which calculates and displays on the standard output the smallest
+- Write a program called push_swap which calculates and displays on the standard output the smallest
 smallest program in the language of the Push_swap instructions that sorts the integers
 passed in parameter.
 
@@ -54,29 +51,6 @@ the stack a. The last element becomes the first.
 the stack b. The last element becomes the first.  
    __rrr__: rra and rrb at the same time.  
    
-## The *checker* program
-The *checker* program takes as parameter the stack as a list of integers.
-The first parameter is at the top of the stack (so be careful of the order).
-Checker must then wait to read instructions from the standard input, each instruction followed by an
-instruction followed by an '\n'. Once all instructions have been read, the checker will
-execute these instructions on the integer stack passed as parameters.
-```
-$>./checker 3 2 1 0
-rra
-pb
-sa
-rra
-pa
-OK
-$>./checker 3 2 1 0
-sa
-rra
-pb
-KO
-$>./checker 3 2 one 0
-Error
-$>
-```
 ## The *push_swap* program
 The *push_swap* program takes as parameter the
 a-stack as a list of integers. The first parameter is at the top
