@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Score_Push_swap.png" alt="Mon image">
+</p>
+
 # Push_swap
 
 This project asks you to sort data on a stack,
